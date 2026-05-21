@@ -1,0 +1,31 @@
+main:
+  - title: "物理学 Physics"
+    url: /physics/
+    children:
+      - title: "力学 Mechanics"
+        url: /physics/mechanics/
+      - title: "電磁気 Electromagnetism"
+        url: /physics/electromagnetism/
+      - title: "量子力学 Quantum"
+        url: /physics/quantum/
+      - title: "相対論 Relativity"
+        url: /physics/relativity/
+      - title: "数学 Math Tools"
+        url: /physics/math-tools/
+
+  - title: "鳥類学 Ornithology"
+    url: /ornithology/
+    children:
+      - title: "分類 Taxonomy"
+        url: /ornithology/taxonomy/
+      - title: "進化 Evolution"
+        url: /ornithology/evolution/
+      - title: "行動 Behavior"
+        url: /ornithology/behavior/
+      - title: "生態 Ecology"
+        url: /ornithology/ecology/
+      - title: "観察 Field Notes"
+        url: /ornithology/field-notes/
+
+  - title: "雑記 Misc"
+    url: /misc/

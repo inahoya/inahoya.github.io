@@ -1,10 +1,12 @@
 ---
-layout: splash
+layout: single
 title: Inahoya Notes
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.2"
-  overlay_image: /assets/header.jpg
+sidebar:
+  nav: "main"
 ---
 
-{% include nav_list nav="main" %}
+# 物理学 Physics
+{% include category_list category="physics" %}
+
+# 鳥類学 Ornithology
+{% include category_list category="ornithology" %}

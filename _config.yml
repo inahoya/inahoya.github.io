@@ -1,3 +1,4 @@
-remote_theme: mistakes/minimal-mistakes
+theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes"
 title: inahoya’s Physics & Ornithology Notes
 description: 物理学と鳥類学の個人ノート

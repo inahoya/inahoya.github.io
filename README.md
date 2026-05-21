@@ -1,12 +1,7 @@
-<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>あなたのＨＰタイトル</title>
-<meta name="description" content="説明文">
-<meta name="keywords" content="キーワード">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="index.css">
+あなたのＨＰタイトル
 </head>
 <body>
 <div id="outer">

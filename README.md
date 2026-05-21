@@ -1,43 +1,10 @@
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-あなたのＨＰタイトル
-</head>
-<body>
-<div id="outer">
-<header>
-<div id="logo"><h1>あなたのＨＰタイトル</h1></div>
-</header>
-<div id="content">
-<main>
-<div id="inner">
-<h2>記事ページ見出し・大</h2>
-<p>文章あれこれ</p>
-</div></main>
-<aside>
-<div id="aside-inner">
-<nav id="left">
-<div class="title">menu</div>
-<div class="side">
-<ul>
-<li>記事ページへのリンク</li>
-<li>記事ページへのリンク</li>
-</ul>
-</div>
-</nav>
-<nav id="right">
-<div class="title">menu</div>
-<div class="side">
-<ul>
-<li>記事ページへのリンク</li>
-<li>記事ページへのリンク</li>
-</ul>
-</div>
-</nav>
-</div>
-</aside>
-</div>
-<footer>© 2026 </footer>
-</div>
-</body>
-</html>
+
+#物理鳥類学辞典
+
+##記事ページ見出し・大
+###文章あれこれ
+- 記事ページへのリンク
+- 記事ページへのリンク
+- 記事ページへのリンク
+- 記事ページへのリンク
+

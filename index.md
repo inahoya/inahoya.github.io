@@ -23,13 +23,6 @@ title: Inahoya Notes
 
 ---
 
-## 📝 雑記 Misc
-
-- [読書メモ / Reading Notes](misc/reading.md)
-- [研究ノート / Research Notes](misc/research.md)
-
----
-
 ## 🕒 更新履歴 Updates
 
 - 2026-05-22: サイト作成  

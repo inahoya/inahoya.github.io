@@ -5,7 +5,9 @@ mathjax: true
 sidebar:
   nav: "main"
 ---
+
 <br>
+
 ## Chapter 1 電磁気学ではなぜベクトル解析が重要なのか？
 
 ### 1.1 まずベクトルの演算を定義
@@ -359,3 +361,87 @@ $$\nabla\times\boldsymbol{v}=\left(\frac{1}{s}\frac{\partial v_z}{\partial \phi}
 $$\nabla^2T=\frac{1}{s}\frac{\partial}{\partial s}\left(s\frac{\partial T}{\partial s}\right)+\frac{1}{s^2}\frac{\partial^2 T}{\partial\phi^2}+\frac{\partial^2 T}{\partial z^2}$$
 
 ### 1.5 ディラックのデルタ関数
+
+#### 1.5.1
+
+ベクトル関数
+
+$$\boldsymbol{v}=\frac{1}{r^2}\boldsymbol{\hat{r}}$$
+
+を考える。この関数は原点から明らかに発散している。しかし、ダイバージェンスを計算すると、
+
+$$\nabla\cdot\boldsymbol{v}=\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{1}{r^2}\right)=0$$
+
+となる。一方、半径 $R$ の球面で面積分をすると、
+
+$$\oint\boldsymbol{v}\cdot d\boldsymbol{a}=\int\left(\frac{1}{R^2}\boldsymbol{\hat{r}}\right)R^2\sin\theta d\theta d\phi\boldsymbol{\hat{r}}=4\pi$$
+
+となり、ガウスの発散定理に反した結果が得られる。これは、原点で $\boldsymbol{v}$ が無限大になることを考慮していないためである。数学的に正しい扱いをするためには、ディラックのデルタ関数を用いる必要がある。
+
+#### 1.5.2
+
+1次元の場合で考える。ディラックのデルタ関数は、
+
+$$
+\delta(x)=\left\{
+\begin{matrix} 0 &  (x\neq 0) \\\infty &  (x=0) \end{matrix}
+\right.
+$$
+
+$$ \int_{-\infty}^\infty\delta(x)dx=1$$
+
+として与えられる。厳密には関数ではなく、超関数、あるいは分布と呼ばれる。
+
+$f(x)$ が通常の関数であれば、以下の性質を持つ。
+
+$$ \int_{-\infty}^\infty f(x)\delta(x-a)dx=f(a)$$
+
+#### 1.5.3
+
+3次元の場合、
+
+$$\delta^3(\boldsymbol{r})=\delta(x)\delta(y)\delta(z)$$
+
+で与えられる。このとき、
+
+$$ \int f(\boldsymbol{r})\delta^3(\boldsymbol{r}-\boldsymbol{a})dx=f(\boldsymbol{a})$$
+
+また、1.5.1節の計算より、
+
+$$ \nabla\cdot\left(\frac{\boldsymbol{\hat{r}}}{r^2}\right)=4\pi\delta^3(\boldsymbol{r})$$
+
+### 1.6 電磁気学は、ベクトル場とポテンシャルの学問である
+
+#### 1.6.1
+
+マクスウェル方程式は、電場と磁場についてのダイバージェンスとカールの関係式である。では、この式から元の電場と磁場を求めることは一般的にできるのだろうか。場が遠方で０ならば、これを保証するのがヘルムホルツの定理である。
+
+#### 1.6.2
+
+定理1
+
+$$\nabla\times F=\boldsymbol{0}$$
+
+ならば、
+
+$$F=-\nabla V$$
+
+なるスカラーポテンシャルＶが存在する。
+
+定理2
+
+$$\nabla\cdot F=0$$
+
+ならば、
+
+$$F=\nabla\times A$$
+
+なるベクトルポテンシャルAが存在する。
+
+両者はＶとＡを一意に定めないが、組み合わせることでダイバージェンスとローテーションの値にかかわらず
+
+$$F=-\nabla V+\nabla\times A$$
+
+と一意に表せることを保証する。これをヘルムホルツの定理と呼ぶ。
+
+マクスウェル方程式はベクトル場の性質と深い関係があるため、電磁気学にはベクトル解析の知識が必須なのである。

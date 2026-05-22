@@ -102,10 +102,6 @@ $$d\boldsymbol{l}=dx\boldsymbol{\hat{x}}+dy\boldsymbol{\hat{y}}+dz\boldsymbol{\h
 
 電磁気学ではしばしば、観測点 $\boldsymbol{r}$ と源点 $\boldsymbol{r'}$ の距離が問題となる。そこで、以下のようなベクトルを定義する。
 
-$$<span class="kaufmann">\boldsymbol{r}</span> \equiv \boldsymbol{r}-\boldsymbol{r'}$$
+\[<span class="kaufmann">\boldsymbol{r}</span> \equiv \boldsymbol{r}-\boldsymbol{r'}\]
 
 $$<span class="kaufmann">normal</span>$$
-
-$$
-r(\,<span class="kaufmann">K</span>n\,)
-$$

@@ -1,6 +1,7 @@
 ---
 layout: category
 title: 電磁気学 Electromagnetics
+math-jax: true
 ---
 
 電磁気学のノート。

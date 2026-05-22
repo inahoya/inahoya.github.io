@@ -1,7 +1,7 @@
 title: Inahoya Notes
 description: Physics Note
-remote_theme: "mmistakes/minimal-mistakes"
 mathjax: true
+remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache

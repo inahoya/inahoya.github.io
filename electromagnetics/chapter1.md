@@ -82,7 +82,7 @@ $$\boldsymbol{A}\times(\boldsymbol{B}\times\boldsymbol{C})=\boldsymbol{B}(\bolds
 #### 1.1.4
 位置ベクトルを
 
-$$\boldsymbol{r}\equiv x\boldsymbol{\hat{x}}+ y \boldsymbol{\hat{y}}+ z\boldsymbol{\hat{z}}$$
+$$\boldsymbol{r}\equiv x\boldsymbol{\hat{x}}+y\boldsymbol{\hat{y}}+z\boldsymbol{\hat{z}}$$
 
 と定義する。大きさは
 
@@ -90,11 +90,11 @@ $$r=\sqrt{x^2+y^2+z^2}$$
 
 単位ベクトルは
 
-$$\boldsymbol{\hat{r}}=\frac{\boldsymbol{r}}{r}=\frac{x\boldsymbol{\hat{x}}+ y \boldsymbol{\hat{y}}+ z\boldsymbol{\hat{z}}}{\sqrt{x^2+y^2+z^2}}$$
+$$\boldsymbol{\hat{r}}=\frac{\boldsymbol{r}}{r}=\frac{x\boldsymbol{\hat{x}}+y\boldsymbol{\hat{y}}+z\boldsymbol{\hat{z}}}{\sqrt{x^2+y^2+z^2}}$$
 
 となる。微小ベクトル要素を
 
-$$d\boldsymbol{l}=dx\boldsymbol{\hat{x}}+ dy \boldsymbol{\hat{y}}+ dz\boldsymbol{\hat{z}}$$
+$$d\boldsymbol{l}=dx\boldsymbol{\hat{x}}+dy\boldsymbol{\hat{y}}+dz\boldsymbol{\hat{z}}$$
 
 と定義する。
 

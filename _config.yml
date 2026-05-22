@@ -1,5 +1,10 @@
 title: Inahoya Notes
 description: Physics Note
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 mathjax: true
 remote_theme: "mmistakes/minimal-mistakes"
 

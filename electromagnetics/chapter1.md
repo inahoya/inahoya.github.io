@@ -6,7 +6,7 @@ sidebar:
   nav: "main"
 ---
 
-## Chapter 1 電磁気学ではなぜベクトル解析が重要なの？
+## Chapter 1 電磁気学ではなぜベクトル解析が重要なのか？
 
 ### 1.1 まずベクトルの計算を定義
 #### 1.1.1
@@ -23,6 +23,7 @@ $$(\boldsymbol{A}+\boldsymbol{B})+\boldsymbol{C}=\boldsymbol{A}+(\boldsymbol{B}+
 $$a(\boldsymbol{A}+\boldsymbol{B})=a\boldsymbol{A}+a\boldsymbol{B}$$
 
 も成り立つ。
+
 内積
 
 $$\boldsymbol{A}\cdot\boldsymbol{B}\equiv AB\cos\theta$$
@@ -36,11 +37,12 @@ $$\boldsymbol{A}\cdot\boldsymbol{B}=\boldsymbol{B}\cdot\boldsymbol{A}$$
 $$\boldsymbol{A}\cdot(\boldsymbol{B}+\boldsymbol{C})=\boldsymbol{A}\cdot\boldsymbol{B}+\boldsymbol{A}\cdot\boldsymbol{C}$$
 
 が成り立つ。
+
 外積
 
 $$\boldsymbol{A}\times\boldsymbol{B}\equiv AB\sin\theta\boldsymbol{\hat{n}}$$
 
-を導入する。内積はスカラーであったが、外積はベクトルである。計算する上で便利なのもそうだが、そもそも $\sin\theta$ の符号が不定なので、向きを決めなければ定義できないという都合もある。分配則
+を導入する。内積はスカラーであったが、外積はベクトルである。分配則
 
 $$\boldsymbol{A}\times(\boldsymbol{B}+\boldsymbol{C})=(\boldsymbol{A}\times\boldsymbol{B})+(\boldsymbol{A}\times\boldsymbol{C})$$
 
@@ -99,4 +101,9 @@ $$d\boldsymbol{l}=dx\boldsymbol{\hat{x}}+dy\boldsymbol{\hat{y}}+dz\boldsymbol{\h
 と定義する。
 
 電磁気学ではしばしば、観測点 $\boldsymbol{r}$ と源点 $\boldsymbol{r'}$ の距離が問題となる。そこで、以下のようなベクトルを定義する。
+
+$$<span class="kaufmann">\boldsymbol{r}</span> \equiv \boldsymbol{r}-\boldsymbol{r'}$$
+
+
+
 

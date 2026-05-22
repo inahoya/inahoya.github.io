@@ -124,7 +124,7 @@ $$\overline{T_{ij}}=\sum_{k=1}^3\sum_{l=1}^3R_{ik}R_{jl}T_{kl}$$
 
 $$df=\left(\frac{df}{dx}\right) dx$$
 
-とあらわされ、微分はグラフの傾きを表す。
+とあらわされ、微分係数はグラフの傾きをあらわす。
 
 #### 1.2.2
 
@@ -138,7 +138,7 @@ $$dT=(\nabla T)\cdot(d\boldsymbol{l})$$
 
 $$\nabla T\equiv\frac{\partial T}{\partial x}\boldsymbol {\hat{x}}+\frac{\partial T}{\partial y}\boldsymbol {\hat{y}}+\frac{\partial T}{\partial z}\boldsymbol {\hat{z}}$$
 
-と表現すると、 $\nabla T$ は最も勾配が急な方向を、$|\nabla T|$　はその傾きをあらわす。
+と表現すると、 $\nabla T$ は最も勾配が急な方向を、$|\nabla T|$ はその傾きをあらわす。
 
 #### 1.2.3
 

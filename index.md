@@ -4,4 +4,4 @@ title: Inahoya Notes
 ---
 
 # 物理学 Physics
-## [電磁気学 Electromagnetics](Electromagnetics.md)
+## [電磁気学 Electromagnetics](\physics\electromagnetics.md)

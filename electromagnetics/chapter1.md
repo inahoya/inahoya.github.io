@@ -47,4 +47,3 @@ $$\boldsymbol{A}\times(\boldsymbol{B}\times\boldsymbol{C})=\boldsymbol{B}(\bolds
 
 #### 1.1.4
 位置ベクトル$\boldsymbol{r}\equiv x\boldsymbol{\hat{x}}+ y \boldsymbol{\hat{y}}+ z\boldsymbol{\hat{z}}$
-<p class="kaufmann">opqr</p>

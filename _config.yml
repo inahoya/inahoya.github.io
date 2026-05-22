@@ -6,8 +6,6 @@ kramdown:
   syntax_highlighter: rouge
 
 mathjax: true
-mathjax:
-  enable_html: true
 remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:

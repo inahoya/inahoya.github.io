@@ -1,10 +1,11 @@
 title: Inahoya Notes
 description: Physics Note
 remote_theme: "mmistakes/minimal-mistakes"
+mathjax: true
 
 plugins:
   - jekyll-include-cache
-mathjax: true
+
 # サイドバー設定
 defaults:
   - scope:

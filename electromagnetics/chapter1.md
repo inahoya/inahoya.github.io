@@ -6,6 +6,8 @@ sidebar:
   nav: "main"
 ---
 
+
+
 ## Chapter 1 電磁気学ではなぜベクトル解析が重要なのか？
 
 ### 1.1 まずベクトルの演算を定義
@@ -206,3 +208,150 @@ $$\nabla\times(\nabla\times\boldsymbol{v})=\nabla(\nabla\cdot\boldsymbol{v})-\na
 
 ### 1.3 ベクトルの積分は重要な定理を与える
 
+#### 1.3.1
+
+線積分
+
+$$\int_a^b \boldsymbol{v}\cdot d\boldsymbol{l}$$
+
+面積分
+
+$$\int_S \boldsymbol{v}\cdot d\boldsymbol{a}$$
+
+ただし、 $d\boldsymbol{a}$ の向きは面の外側を正に取るのが通例である。
+
+体積分
+
+$$\int_V Td\tau$$
+
+ただし、 $d\tau=dxdydz$ と置く。
+
+#### 1.3.2
+
+微積分学の基本定理
+
+$$\int_a^b \left(\frac{df}{dx}\right)dx=f(b)-f(a)$$
+
+これは、線の傾きの総和は端点の差でのみ決まるという定理である。
+
+#### 1.3.3
+
+$$\int_a^b \left(\nabla T\right)\cdot d\boldsymbol{l}=T(b)-T(a)$$
+
+微積分学の基本定理の線積分版である。
+系1 $\int_a^b \left(\nabla T\right)\cdot d\boldsymbol{l}$ は経路によらない。
+系2 $\oint \left(\nabla T\right)\cdot d\boldsymbol{l}=0$
+
+#### 1.3.4
+
+$$\int_V \left(\nabla \cdot\boldsymbol{v}\right) d\tau=\oint_S \boldsymbol{v}\cdot d\boldsymbol{a}$$
+
+微積分学の基本定理の体積分版である。ガウスの発散定理などと呼ばれる。
+
+#### 1.3.5
+
+$$\int_S \left(\nabla \times\boldsymbol{v}\right) d\boldsymbol{a}=\oint_P \boldsymbol{v}\cdot d\boldsymbol{l}$$
+
+微積分学の基本定理の面積分版である。ストークスの定理と呼ばれる。
+系1 $\int \left(\nabla \times\boldsymbol{v}\right) d\boldsymbol{a}$ は面の取り方によらず、その境界線のみによって決まる。
+系2 $\oint \left(\nabla \times\boldsymbol{v}\right) d\boldsymbol{a}=0$ ただし閉じた面についての積分をあらわす。
+
+#### 1.3.6
+
+部分積分
+
+$$\int_a^b f\left(\frac{dg}{dx}\right)dx=-\int_a^b g\left(\frac{df}{dx}\right)dx+fg\rvert_a^b$$
+
+をベクトルに拡張することができる。適切な微分公式を積分することによって、例えば
+
+$$\nabla\cdot(fA)=f(\nabla\cdot A)+A\cdot(\nabla f)$$
+
+を体積分して
+
+$$\int_V f(\nabla\cdot A)d\tau = -\int_V A(\nabla f)d\tau +\oint_S fA\cdot d\boldsymbol{a}$$
+
+類似の式は複数導かれる。
+
+### 1.4 球面・円柱座標系におけるベクトルの取り扱い
+
+#### 1.4.1
+
+球面座標系において、
+
+$$x=r\sin\theta\cos\phi,y=r\sin\theta\sin\phi, z=r\cos\theta$$
+
+と変換される。ベクトル $A$ は、
+
+$$ A=A_r\boldsymbol{\hat{r}}+A_\theta\boldsymbol{\hat{\theta}}+A_\phi\boldsymbol{\hat{\phi}}$$
+
+ただし、
+
+$$ \boldsymbol{\hat{r}}=\sin\theta\cos\phi\boldsymbol{\hat{x}}+\sin\theta\sin\phi\boldsymbol{\hat{y}}+\cos\theta\boldsymbol{\hat{z}}$$
+
+$$ \boldsymbol{\hat{\theta}}=\cos\theta\cos\phi\boldsymbol{\hat{x}}+\cos\theta\sin\phi\boldsymbol{\hat{y}}-\sin\theta\boldsymbol{\hat{z}}$$
+
+$$ \boldsymbol{\hat{\phi}}=-\sin\phi\boldsymbol{\hat{x}}+cos\phi\boldsymbol{\hat{y}}$$
+
+である。
+
+線積分の作用素は
+
+$$ d\boldsymbol{l}=dr\boldsymbol{\hat{r}}+rd\theta\boldsymbol{\hat{\theta}}+r\sin\theta d\phi\boldsymbol{\hat{\phi}}$$
+
+体積分の作用素は
+
+$$d\tau=r^2\sin\theta drd\theta d\phi$$
+
+面積分の作用素は位置によって異なる。
+
+ベクトルの微分についても、係数が変化し、
+
+$$\nabla T=\frac{\partial T}{\partial r}\boldsymbol{\hat{r}}+\frac{1}{r}\frac{\partial T}{\partial\theta}\boldsymbol{\hat{\theta}}+\frac{1}{r\sin\theta}\frac{\partial T}{\partial\phi}\boldsymbol{\hat{\phi}}$$
+
+$$\nabla\cdot\boldsymbol{v}=\frac{1}{r^2}\frac{\partial}{\partial r}(r^2v_r)+\frac{1}{r\sin\theta}\frac{\partial}{\partial\theta}(\sin\theta v_\theta)+\frac{1}{r\sin\theta}\frac{\partial v_\phi}{\partial\phi}$$
+
+$$\nabla\times\boldsymbol{v}=\frac{1}{r\sin\theta}\left[\frac{\partial}{\partial \theta}(\sin\theta v_\phi)-\frac{\partial v_\theta}{\partial\phi}\right]\boldsymbol{\hat{r}}+\frac{1}{r}\left[\frac{1}{\sin\theta}\frac{\partial v_r}{\partial \phi}-\frac{\partial}{\partial r}(rv_\phi)\right]\boldsymbol{\hat{\theta}}$$
+
+$$+\frac{1}{r}\left[\frac{\partial}{\partial r}(r v_\theta)-\frac{\partial v_r}{\partial\theta}\right]\boldsymbol{\hat{\phi}}$$
+
+$$\nabla^2T=\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial T}{\partial r}\right)+\frac{1}{r^2\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta \frac{\partial T}{\partial \theta}\right)+\frac{1}{r^2\sin^2\theta}\frac{\partial^2 T}{\partial\phi^2}$$
+
+#### 1.4.2
+
+円柱座標系も同様に、
+
+$$x=s\cos\phi,y=s\sin\phi, z=z$$
+
+と変換される。ベクトル $A$ は、
+
+$$ A=A_s\boldsymbol{\hat{s}}+A_\phi\boldsymbol{\hat{\phi}}+A_z\boldsymbol{\hat{z}}$$
+
+ただし、
+
+$$ \boldsymbol{\hat{s}}=\cos\phi\boldsymbol{\hat{x}}+\sin\phi\boldsymbol{\hat{y}}$$
+
+$$ \boldsymbol{\hat{\phi}}=-\sin\phi\boldsymbol{\hat{x}}+\cos\phi\boldsymbol{\hat{y}}$$
+
+$$ \boldsymbol{\hat{z}}=\boldsymbol{\hat{z}}$$
+
+である。
+
+線積分の作用素は
+
+$$ d\boldsymbol{l}=ds\boldsymbol{\hat{s}}+sd\phi\boldsymbol{\hat{\phi}}+dz\boldsymbol{\hat{z}}$$
+
+体積分の作用素は
+
+$$d\tau=sdsd\phi dz$$
+
+面積分の作用素は位置によって異なる。
+
+ベクトルの微分についても、係数が変化し、
+
+$$\nabla T=\frac{\partial T}{\partial s}\boldsymbol{\hat{s}}+\frac{1}{s}\frac{\partial T}{\partial\phi}\boldsymbol{\hat{\phi}}+\frac{\partial T}{\partial z}\boldsymbol{\hat{z}}$$
+
+$$\nabla\cdot\boldsymbol{v}=\frac{1}{s}\frac{\partial}{\partial s}(sv_s)+\frac{1}{s}\frac{\partial v_\phi}{\partial\phi}+\frac{\partial v_z}{\partial z}$$
+
+$$\nabla\times\boldsymbol{v}=\left(\frac{1}{s}\frac{\partial v_z}{\partial \phi}-\frac{\partial v_\phi}{\partial z}\right)\boldsymbol{\hat{s}}+\left(\frac{\partial v_s}{\partial z}-\frac{\partial v_z}{\partial s}\right)\boldsymbol{\hat{\phi}}+\frac{1}{s}\left[\frac{\partial}{\partial s}(s v_\phi)-\frac{\partial v_s}{\partial\phi}\right]\boldsymbol{\hat{z}}$$
+
+$$\nabla^2T=\frac{1}{s}\frac{\partial}{\partial s}\left(s\frac{\partial T}{\partial s}\right)+\frac{1}{s^2}\frac{\partial^2 T}{\partial\phi^2}+\frac{\partial^2 T}{\partial z^2}$$

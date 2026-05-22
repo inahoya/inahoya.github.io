@@ -9,7 +9,7 @@ sidebar:
 
 ## Chapter 1 電磁気学ではなぜベクトル解析が重要なの？
 
-### 1.1 ベクトルの計算
+### 1.1 まずベクトルの計算を定義
 #### 1.1.1
 **ベクトル**とは、向きと大きさを持つ量である。対して、大きさを表す量を**スカラー**という。ベクトルの和について、交換則
 
@@ -81,6 +81,26 @@ C_x & C_y & C_z
 $$\boldsymbol{A}\times(\boldsymbol{B}\times\boldsymbol{C})=\boldsymbol{B}(\boldsymbol{A}\cdot\boldsymbol{C})-\boldsymbol{C}(\boldsymbol{A}\cdot\boldsymbol{B})$$
 
 #### 1.1.4
-位置ベクトル
+位置ベクトルを
 
 $$\boldsymbol{r}\equiv x\boldsymbol{\hat{x}}+ y \boldsymbol{\hat{y}}+ z\boldsymbol{\hat{z}}$$
+
+と定義する。大きさは
+
+$$r=\sqrt{x^2+y^2+z^2}$$
+
+単位ベクトルは
+
+$$\boldsymbol{\hat{r}}=\frac{\boldsymbol{r}}{r}=\frac{x\boldsymbol{\hat{x}}+ y \boldsymbol{\hat{y}}+ z\boldsymbol{\hat{z}}}{\sqrt{x^2+y^2+z^2}}$$
+
+となる。微小ベクトル要素を
+
+$$d\boldsymbol{l}=dx\boldsymbol{\hat{x}}+ dy \boldsymbol{\hat{y}}+ dz\boldsymbol{\hat{z}}$$
+
+と定義する。
+
+電磁気学ではしばしば、観測点 $\boldsymbol{r}$ と源点 $\boldsymbol{r'}$ の距離が問題となる。そこで、以下のようなベクトルを定義する。
+
+$$
+<span class="kaufmann">\boldsymbol{r}</span> = r
+$$

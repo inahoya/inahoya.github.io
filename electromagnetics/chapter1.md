@@ -104,8 +104,6 @@ $$d\boldsymbol{l}=dx\boldsymbol{\hat{x}}+dy\boldsymbol{\hat{y}}+dz\boldsymbol{\h
 
 $$<span class="kaufmann">\boldsymbol{r}</span> \equiv \boldsymbol{r}-\boldsymbol{r'}$$
 
-$$
-r(\,<span class="kaufmann">K</span>aufmann\,) = r(\text{normal})
-$$
+$$<span class="kaufmann">normal</span>$$
 
 

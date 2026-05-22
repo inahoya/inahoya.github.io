@@ -4,7 +4,6 @@ title: 電磁気学 Electromagnetics
 mathjax: true
 sidebar:
   nav: "main"
-
 ---
 
 ## Chapter 1 電磁気学ではなぜベクトル解析が重要なの？

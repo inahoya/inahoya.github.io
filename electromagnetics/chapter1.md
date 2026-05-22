@@ -106,4 +106,6 @@ $$<span class="kaufmann">\boldsymbol{r}</span> \equiv \boldsymbol{r}-\boldsymbol
 
 $$<span class="kaufmann">normal</span>$$
 
-
+$$
+r(\,<span class="kaufmann">K</span>n\,)
+$$

@@ -4,3 +4,12 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache
+# サイドバー設定
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      sidebar:
+        nav: "main"

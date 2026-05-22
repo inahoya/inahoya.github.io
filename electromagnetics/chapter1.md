@@ -5,9 +5,7 @@ mathjax: true
 sidebar:
   nav: "main"
 ---
-
-
-
+<br>
 ## Chapter 1 電磁気学ではなぜベクトル解析が重要なのか？
 
 ### 1.1 まずベクトルの演算を定義
@@ -239,7 +237,9 @@ $$\int_a^b \left(\frac{df}{dx}\right)dx=f(b)-f(a)$$
 $$\int_a^b \left(\nabla T\right)\cdot d\boldsymbol{l}=T(b)-T(a)$$
 
 微積分学の基本定理の線積分版である。
+
 系1 $\int_a^b \left(\nabla T\right)\cdot d\boldsymbol{l}$ は経路によらない。
+
 系2 $\oint \left(\nabla T\right)\cdot d\boldsymbol{l}=0$
 
 #### 1.3.4
@@ -253,7 +253,9 @@ $$\int_V \left(\nabla \cdot\boldsymbol{v}\right) d\tau=\oint_S \boldsymbol{v}\cd
 $$\int_S \left(\nabla \times\boldsymbol{v}\right) d\boldsymbol{a}=\oint_P \boldsymbol{v}\cdot d\boldsymbol{l}$$
 
 微積分学の基本定理の面積分版である。ストークスの定理と呼ばれる。
+
 系1 $\int \left(\nabla \times\boldsymbol{v}\right) d\boldsymbol{a}$ は面の取り方によらず、その境界線のみによって決まる。
+
 系2 $\oint \left(\nabla \times\boldsymbol{v}\right) d\boldsymbol{a}=0$ ただし閉じた面についての積分をあらわす。
 
 #### 1.3.6
@@ -268,7 +270,7 @@ $$\nabla\cdot(fA)=f(\nabla\cdot A)+A\cdot(\nabla f)$$
 
 を体積分して
 
-$$\int_V f(\nabla\cdot A)d\tau = -\int_V A(\nabla f)d\tau +\oint_S fA\cdot d\boldsymbol{a}$$
+$$\int_V f(\nabla\cdot A)d\tau = -\int_V A\cdot(\nabla f)d\tau +\oint_S fA\cdot d\boldsymbol{a}$$
 
 類似の式は複数導かれる。
 
@@ -355,3 +357,5 @@ $$\nabla\cdot\boldsymbol{v}=\frac{1}{s}\frac{\partial}{\partial s}(sv_s)+\frac{1
 $$\nabla\times\boldsymbol{v}=\left(\frac{1}{s}\frac{\partial v_z}{\partial \phi}-\frac{\partial v_\phi}{\partial z}\right)\boldsymbol{\hat{s}}+\left(\frac{\partial v_s}{\partial z}-\frac{\partial v_z}{\partial s}\right)\boldsymbol{\hat{\phi}}+\frac{1}{s}\left[\frac{\partial}{\partial s}(s v_\phi)-\frac{\partial v_s}{\partial\phi}\right]\boldsymbol{\hat{z}}$$
 
 $$\nabla^2T=\frac{1}{s}\frac{\partial}{\partial s}\left(s\frac{\partial T}{\partial s}\right)+\frac{1}{s^2}\frac{\partial^2 T}{\partial\phi^2}+\frac{\partial^2 T}{\partial z^2}$$
+
+### 1.5 ディラックのデルタ関数

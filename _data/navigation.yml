@@ -1,10 +1,10 @@
 main:
   - title: "物理学 Physics"
-    url: /physics/
     children:
-      - title: "電磁気 Electromagnetism"
-        url: /physics/electromagnetism/
-        
-  
+      - title: "電磁気学 Electromagnetism"
+        url: /electromagnetism/
+        children:
+          - title: "Chapter1"
+            url: /electromagnetism/chapter1
   - title: "雑記 Misc"
     url: /misc/

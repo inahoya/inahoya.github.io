@@ -1,7 +1,6 @@
 ---
 layout: single
-title: Inahoya Notes
+title: Inahoya Physics Notes
 ---
 
-# 物理学 Physics
 ## [電磁気学 Electromagnetics](\physics\electromagnetics.md)

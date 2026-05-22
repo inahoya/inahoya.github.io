@@ -132,13 +132,13 @@ $$df=\left(\frac{df}{dx}\right) dx$$
 
 $$dT=\left(\frac{\partial T}{\partial x}\right)dx+\left(\frac{\partial T}{\partial y}\right)dy+\left(\frac{\partial T}{\partial z}\right)dz$$
 
-微小ベクトル $d\boldsymbol{l}$ を用いて、
+微小ベクトル要素 $d\boldsymbol{l}$ を用いて、
 
 $$dT=(\nabla T)\cdot(d\boldsymbol{l})$$
 
 $$\nabla T\equiv\frac{\partial T}{\partial x}\boldsymbol {\hat{x}}+\frac{\partial T}{\partial y}\boldsymbol {\hat{y}}+\frac{\partial T}{\partial z}\boldsymbol {\hat{z}}$$
 
-と表現すると、 $\nabla T$ は最も勾配が急な方向を、 $|\nabla T|$ はその傾きをあらわす。
+と表現すると、 $\nabla T$ は最も勾配が急な方向を、 $\lvert\nabla T\rvert$ はその傾きをあらわす。
 
 #### 1.2.3
 

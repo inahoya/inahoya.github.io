@@ -1,7 +1,7 @@
 ---
+layout: single
 title: 電磁気学 Electromagnetics
 mathjax: true
-layout: single
 sidebar:
   nav: "main"
 

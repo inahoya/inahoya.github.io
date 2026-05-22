@@ -138,7 +138,7 @@ $$dT=(\nabla T)\cdot(d\boldsymbol{l})$$
 
 $$\nabla T\equiv\frac{\partial T}{\partial x}\boldsymbol {\hat{x}}+\frac{\partial T}{\partial y}\boldsymbol {\hat{y}}+\frac{\partial T}{\partial z}\boldsymbol {\hat{z}}$$
 
-と表現すると、 $\nabla T$ は最も勾配が急な方向を、 $\left|\nabla T\right|$ はその傾きをあらわす。
+と表現すると、 $\nabla T$ は最も勾配が急な方向を、 $|\nabla T|$ はその傾きをあらわす。
 
 #### 1.2.3
 

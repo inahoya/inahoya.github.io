@@ -1,7 +1,7 @@
 main:
   - title: "物理学 Physics"
     children:
-      - title: "電磁気学 Electromagnetism"
+      - title: "電磁気学 Electromagnetics"
         url: /electromagnetics/index
         children:
           - title: "Chapter1"

@@ -3,13 +3,9 @@ layout: single
 title: 電磁気学 Electromagnetics
 mathjax: true
 toc: true
-toc_min: 2
-toc_max: 3
 sidebar:
   nav: "main"
 ---
-
-# test
 
 ## Chapter 1 電磁気学ではなぜベクトル解析が重要なのか？
 

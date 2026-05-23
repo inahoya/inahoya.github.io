@@ -3,8 +3,8 @@ layout: single
 title: 電磁気学 Electromagnetics
 mathjax: true
 toc: true
-toc_min: 1
-toc_max: 2
+h_min: 2
+h_max: 3
 sidebar:
   nav: "main"
 ---

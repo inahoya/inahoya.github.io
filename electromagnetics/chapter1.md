@@ -2,11 +2,11 @@
 layout: single
 title: 電磁気学 Electromagnetics
 mathjax: true
-sidebar:
-  nav: "main"
 toc: true
 toc_min: 2
-toc_max: 2
+toc_max: 3
+sidebar:
+  nav: "main"
 ---
 
 <br>

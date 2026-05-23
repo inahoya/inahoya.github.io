@@ -4,11 +4,17 @@ title: 電磁気学 Electromagnetics
 mathjax: true
 sidebar:
   nav: "main"
+toc:
+  depth_from: 3
+  depth_to: 3
+  ordered: false
 ---
 
 <br>
 
 ## Chapter 1 電磁気学ではなぜベクトル解析が重要なのか？
+
+[TOC]
 
 ### 1.1 まずベクトルの演算を定義
 #### 1.1.1

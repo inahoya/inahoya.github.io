@@ -3,8 +3,5 @@ main:
     children:
       - title: "電磁気学 Electromagnetics"
         url: /electromagnetics/index
-        children:
-          - title: "Chapter1"
-            url: /electromagnetics/chapter1
   - title: "雑記 Misc"
     url: /misc/

@@ -4,9 +4,9 @@ title: 電磁気学 Electromagnetics
 mathjax: true
 ---
 
-電磁気学のノート。
+電磁気学の思考ログノート。
 
-[Chapter1](/chapter1.md)
+[Chapter 1 電磁気学ではなぜベクトル解析が重要なのか？](/chapter1.md)
 
 [Chapter2](/chapter2.md)
 

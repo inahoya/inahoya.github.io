@@ -3,8 +3,8 @@ layout: single
 title: 電磁気学 Electromagnetics
 mathjax: true
 toc: true
-toc_min_heading_level: 2
-toc_max_heading_level: 3
+toc_min: 2
+toc_max: 3
 sidebar:
   nav: "main"
 ---
@@ -14,6 +14,7 @@ sidebar:
 ## Chapter 1 電磁気学ではなぜベクトル解析が重要なのか？
 
 ### 1.1 まずベクトルの演算を定義
+
 #### 1.1.1
 **ベクトル**とは、向きと大きさを持つ量である。対して、大きさを表す量を**スカラー**という。ベクトルの和について、交換則
 
@@ -56,6 +57,7 @@ $$\boldsymbol{A}\times(\boldsymbol{B}+\boldsymbol{C})=(\boldsymbol{A}\times\bold
 $$\boldsymbol{A}\times\boldsymbol{B}=-\boldsymbol{B}\times\boldsymbol{A}$$
 
 #### 1.1.2
+
 ベクトルの表現として、カルテシアン座標 $x,y,z$ を使うこともできる。
 
 $$\boldsymbol{A}=A_x\boldsymbol{\hat{x}}+A_y\boldsymbol{\hat{y}}+A_z\boldsymbol{\hat{z}}$$
@@ -71,6 +73,7 @@ B_x & B_y & B_z
 \end{vmatrix}$$
 
 #### 1.1.3
+
 スカラー三重積 $\boldsymbol{A}\cdot(\boldsymbol{B}\times\boldsymbol{C})$ は、その大きさが３つのベクトルのなす平行六面体の体積であり、以下の性質を持つ。
 
 $$\boldsymbol{A}\cdot(\boldsymbol{B}\times\boldsymbol{C})=\boldsymbol{B}\cdot(\boldsymbol{C}\times\boldsymbol{A})=\boldsymbol{C}\cdot(\boldsymbol{A}\times\boldsymbol{B})$$
@@ -87,6 +90,7 @@ C_x & C_y & C_z
 $$\boldsymbol{A}\times(\boldsymbol{B}\times\boldsymbol{C})=\boldsymbol{B}(\boldsymbol{A}\cdot\boldsymbol{C})-\boldsymbol{C}(\boldsymbol{A}\cdot\boldsymbol{B})$$
 
 #### 1.1.4
+
 位置ベクトルを
 
 $$\boldsymbol{r}\equiv x\boldsymbol{\hat{x}}+y\boldsymbol{\hat{y}}+z\boldsymbol{\hat{z}}$$

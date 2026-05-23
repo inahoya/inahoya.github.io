@@ -5,8 +5,8 @@ mathjax: true
 sidebar:
   nav: "main"
 toc: true
-toc_min: 3
-toc_max: 3
+toc_min: 2
+toc_max: 2
 ---
 
 <br>

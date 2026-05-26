@@ -110,6 +110,8 @@ $$d\boldsymbol{l}=dx\boldsymbol{\hat{x}}+dy\boldsymbol{\hat{y}}+dz\boldsymbol{\h
 
 $$\mathscr{\boldsymbol{r}} \equiv \boldsymbol{r}-\boldsymbol{r'}$$
 
+<p class="kaufmann">物理学と鳥類学のノート</p>
+
 #### 1.1.5
 
 ベクトルは、座標系の回転に対して以下の規則に従わなければならない。一般に3次元空間では、

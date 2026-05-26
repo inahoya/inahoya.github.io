@@ -110,7 +110,7 @@ $$d\boldsymbol{l}=dx\boldsymbol{\hat{x}}+dy\boldsymbol{\hat{y}}+dz\boldsymbol{\h
 
 $$\boldsymbol{\r} \equiv \boldsymbol{r}-\boldsymbol{r'}$$
 $$
-r(\,<span class="kaufmann">K</span>n\,)
+<span style="font-family: 'Kaufmann Regular'">K</span>
 $$
 
 #### 1.1.5

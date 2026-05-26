@@ -110,7 +110,7 @@ $$d\boldsymbol{l}=dx\boldsymbol{\hat{x}}+dy\boldsymbol{\hat{y}}+dz\boldsymbol{\h
 
 $$\mathscr{\boldsymbol{r}} \equiv \boldsymbol{r}-\boldsymbol{r'}$$
 
-<p class="kaufmann">物理学と鳥類学のノート</p>
+<p class="kaufmann">normal</p>
 
 #### 1.1.5
 

@@ -10,6 +10,7 @@ mathjax: true
 
 [Chapter2](/chapter2.md)
 
+<!-- 
 [Chapter3](/chapter3.md)
 
 [Chapter4](/chapter4.md)
@@ -29,3 +30,4 @@ mathjax: true
 [Chapter11](/chapter11.md)
 
 [Chapter12](/chapter12.md)
+-->

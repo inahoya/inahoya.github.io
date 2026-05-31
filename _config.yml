@@ -10,6 +10,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
 # サイドバー設定
 defaults:
   - scope:

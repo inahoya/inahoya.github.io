@@ -21,8 +21,6 @@ sidebar:
 
 $$F=\frac{1}{4\pi\varepsilon_0}\frac{qQ}{\mathscr{r}^2}\boldsymbol{\hat{\mathscr{r}}}$$
 
-$$<span style="font-family: kaufmann; font-size: 20px;">normal</span>$$
-
 ここで、 $\varepsilon_0$ は真空の誘電率
 
 $$\varepsilon_0=8.85\times10^{-12}\frac{C^2}{N\cdot m^2}$$

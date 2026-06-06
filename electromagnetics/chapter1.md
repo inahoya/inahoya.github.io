@@ -9,7 +9,7 @@ sidebar:
 
 ## Chapter 1 電磁気学ではなぜベクトル解析が重要なのか？
 
-### 1.1 まずベクトルの演算を定義
+### 1.1 ベクトルの演算
 
 #### 1.1.1
 
@@ -45,7 +45,9 @@ $$\boldsymbol{A}\cdot(\boldsymbol{B}+\boldsymbol{C})=\boldsymbol{A}\cdot\boldsym
 
 $$\boldsymbol{A}\times\boldsymbol{B}\equiv AB\sin\theta\boldsymbol{\hat{n}}$$
 
-を導入する。内積はスカラーであったが、外積はベクトルである。分配則
+を導入する。内積はスカラーであったが、外積はベクトルである。
+
+分配則
 
 $$\boldsymbol{A}\times(\boldsymbol{B}+\boldsymbol{C})=(\boldsymbol{A}\times\boldsymbol{B})+(\boldsymbol{A}\times\boldsymbol{C})$$
 
@@ -108,11 +110,7 @@ $$d\boldsymbol{l}=dx\boldsymbol{\hat{x}}+dy\boldsymbol{\hat{y}}+dz\boldsymbol{\h
 
 電磁気学ではしばしば、観測点 $\boldsymbol{r}$ と源点 $\boldsymbol{r'}$ の距離が問題となる。そこで、以下のようなベクトルを定義する。
 
-$$
-\boldsymbol{\mathfrak{r}}
-\equiv
-\boldsymbol{r} - \boldsymbol{r'}
-$$
+$$\mathscr{\boldsymbol{r}} \equiv \boldsymbol{r}-\boldsymbol{r'}$$
 
 #### 1.1.5
 
@@ -126,7 +124,7 @@ $$\overline{T_{ij}}=\sum_{k=1}^3\sum_{l=1}^3R_{ik}R_{jl}T_{kl}$$
 
 が成立する。
 
-### 1.2 次にベクトルの微分を整理
+### 1.2 ベクトルの微分
 
 #### 1.2.1
 
@@ -446,7 +444,7 @@ $$F=\nabla\times A$$
 
 なるベクトルポテンシャルAが存在する。
 
-両者はＶとＡを一意に定めないが、組み合わせることでダイバージェンスとカールの値にかかわらず、ある境界条件の下で
+両者はＶとＡを一意に定めないが、組み合わせることでダイバージェンスとカールの値が求まれば、ある境界条件の下で
 
 $$F=-\nabla V+\nabla\times A$$
 
